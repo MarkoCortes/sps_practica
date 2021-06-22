@@ -1,3 +1,4 @@
+#Obtener documentos de Juan Lara
 GET /log_consultas/_search?size=300
 {
   "query": {
