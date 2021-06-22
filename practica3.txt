@@ -1,0 +1,20 @@
+#Obtener documentos con estado_consulta="informativo" y servicio="borrado"
+GET /log_consultas/_search?size=300
+{
+  "query": {
+      "bool": {
+        "must": [
+          {
+            "match": {
+              "estado_consulta": "informativo"
+            }
+          },
+          {
+            "match": {
+              "servicio": "borrado"
+            }
+          }
+        ]
+      }
+  }
+}

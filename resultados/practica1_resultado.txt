@@ -1,0 +1,2385 @@
+{
+  "took" : 6,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 182,
+      "relation" : "eq"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "1",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T22:00:54",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 52
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "2",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T12:55:04",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 10
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "3",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T14:56:48",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 20
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "4",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T22:33:34",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 65
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "5",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T18:36:57",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 5
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "7",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T18:37:14",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 32
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "8",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T02:32:08",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 27
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "9",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T09:02:41",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 23
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "10",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T00:27:26",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 53
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "11",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T11:57:20",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 3
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "13",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T23:10:59",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 55
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "14",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T06:44:29",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 41
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "16",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T02:46:41",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 26
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "17",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T08:51:32",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 40
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "21",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T12:57:33",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 6
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "22",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:05:42",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 10
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "23",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:19:42",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 69
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "24",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T10:43:06",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 42
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "26",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T11:41:03",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 58
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "28",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:08:09",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 65
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "30",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T10:21:34",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 11
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "31",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T19:17:00",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 13
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "32",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T02:00:09",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 10
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "33",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:06:39",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 62
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "34",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T22:04:41",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 5
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "37",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:06:06",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 34
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "42",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T11:31:16",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 26
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "43",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T04:47:03",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 20
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "44",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T15:33:33",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 74
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "46",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T06:00:09",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 72
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "47",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T03:32:27",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 8
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "48",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T23:55:45",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 12
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "51",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T10:04:41",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 8
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "52",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T17:02:14",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 28
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "54",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T17:33:56",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 18
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "55",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T00:52:21",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 51
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "56",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:23:24",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 58
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "59",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:19:26",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 8
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "60",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:26:41",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 64
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "61",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T08:27:43",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 35
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "63",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:06:37",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 4
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "64",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:02:08",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 74
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "68",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T20:20:21",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 3
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "69",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:34:49",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 19
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "70",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T15:25:19",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 59
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "71",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T02:07:12",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 46
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "72",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T10:22:48",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 5
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "73",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T20:22:08",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 68
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "78",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T01:39:15",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 66
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "79",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T11:38:06",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 54
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "80",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T12:02:21",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 67
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "83",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T18:31:08",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 56
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "84",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T16:28:19",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 70
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "86",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:30:26",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 29
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "87",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T23:44:36",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 45
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "89",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:42:52",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 34
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "90",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:41:24",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 72
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "91",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:03:02",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 2
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "92",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T09:00:53",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 37
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "93",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T17:49:10",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 11
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "94",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:18:24",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 4
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "96",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T02:51:42",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 59
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "97",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T04:38:55",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 8
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "99",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:46:54",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 9
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "100",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T00:02:43",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 37
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "101",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T00:35:22",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 31
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "102",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T11:49:00",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 34
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "109",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T18:43:22",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 47
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "115",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T04:00:04",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 34
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "116",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T17:42:39",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 35
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "118",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T16:34:12",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 16
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "119",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:29:14",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 64
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "120",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:41:54",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 63
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "121",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T21:12:57",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 34
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "122",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T08:36:56",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 39
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "126",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T03:45:07",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 17
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "130",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T18:02:40",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 43
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "132",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T16:33:12",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 67
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "133",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:50:07",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 39
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "134",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:37:23",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 28
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "136",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:31:11",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 63
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "137",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T15:57:40",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 39
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "138",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T10:05:32",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 9
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "141",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T16:40:37",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 8
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "142",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T11:47:05",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 67
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "143",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T21:31:13",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 43
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "144",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:18:29",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 50
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "145",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:37:12",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 17
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "146",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T08:28:35",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 4
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "148",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T23:19:46",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 67
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "149",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T14:39:30",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 50
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "153",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:20:55",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 14
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "154",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T04:55:36",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 51
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "155",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T06:38:05",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 62
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "157",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T03:36:34",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 67
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "158",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:16:26",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 61
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "159",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T10:20:25",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 47
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "160",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T04:17:26",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 16
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "162",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T21:54:46",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 62
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "164",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T09:15:10",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 29
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "165",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T01:31:57",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 16
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "167",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T04:14:03",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 53
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "168",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T00:26:17",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 25
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "169",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T00:59:04",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 43
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "173",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T22:47:44",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 29
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "175",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:08:36",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 21
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "177",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T21:43:27",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 56
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "179",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T14:18:17",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 31
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "180",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T00:05:12",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 47
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "181",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:44:13",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 65
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "184",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T12:46:31",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 13
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "185",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T14:11:16",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 63
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "190",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T17:25:33",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 14
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "193",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T20:37:44",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 44
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "194",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T22:12:21",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 0
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "195",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:57:17",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 58
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "196",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T14:57:32",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 68
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "200",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T10:14:03",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 70
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "201",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T23:59:52",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 26
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "203",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T16:54:56",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 64
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "204",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T20:58:08",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 19
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "205",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:53:14",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 3
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "206",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T00:18:39",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 60
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "207",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T08:26:54",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 7
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "208",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T19:59:03",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 16
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "209",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T12:20:35",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 62
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "210",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T03:48:28",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 34
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "211",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T18:05:28",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 12
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "213",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T10:55:16",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 41
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "215",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:08:02",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 46
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "216",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:38:45",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 13
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "217",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T15:33:05",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 7
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "218",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T11:06:10",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 19
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "219",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:46:25",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 67
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "220",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T19:24:34",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 27
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "226",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T15:37:03",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 41
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "227",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T16:22:58",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 17
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "228",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T21:41:59",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 29
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "229",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T15:36:37",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 7
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "231",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T03:13:37",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 9
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "232",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T17:38:53",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 59
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "233",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T16:24:18",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 39
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "234",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T08:30:13",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 55
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "235",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:58:55",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 41
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "237",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T06:03:35",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 42
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "239",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T10:20:56",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 16
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "243",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T22:59:41",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 12
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "245",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:23:33",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 46
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "246",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T20:36:38",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 26
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "248",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T14:44:30",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 25
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "249",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T11:39:37",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 28
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "250",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T06:18:15",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 3
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "251",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T14:04:22",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 40
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "254",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:25:04",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 38
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "255",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T23:34:20",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 7
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "256",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:36:06",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 38
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "257",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T04:22:18",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 31
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "260",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T17:58:32",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 30
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "261",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T15:11:57",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 71
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "262",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:41:12",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 1
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "265",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T04:23:31",
+          "estado_consulta" : "error",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 34
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "267",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T11:42:10",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 74
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "268",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T19:23:14",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 27
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "269",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T10:43:52",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 59
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "270",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T08:21:15",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 17
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "271",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T06:03:57",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 54
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "272",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T19:35:32",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 13
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "274",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:04:51",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 64
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "276",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T00:06:24",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 8
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "277",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T20:51:28",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 65
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "278",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T06:39:53",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 19
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "279",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T23:21:15",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 42
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "281",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T00:13:42",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 55
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "284",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T10:40:16",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 30
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "285",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T11:36:27",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 62
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "288",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T16:33:17",
+          "estado_consulta" : "error",
+          "servicio" : "consulta",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 57
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "289",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T20:12:22",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 68
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "290",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T04:57:25",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 15
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "291",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T20:50:37",
+          "estado_consulta" : "consumo",
+          "servicio" : "consulta",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 19
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "292",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T14:11:32",
+          "estado_consulta" : "consumo",
+          "servicio" : "modificacion",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 51
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "293",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T04:58:54",
+          "estado_consulta" : "error",
+          "servicio" : "modificacion",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 68
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "295",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2010-05-15T10:40:03",
+          "estado_consulta" : "consumo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 9
+        }
+      }
+    ]
+  }
+}

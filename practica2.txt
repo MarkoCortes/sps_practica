@@ -1,0 +1,8 @@
+GET /log_consultas/_search?size=300
+{
+  "query": {
+    "term": {
+      "administrador": "Juan Lara"
+    }
+  }
+}

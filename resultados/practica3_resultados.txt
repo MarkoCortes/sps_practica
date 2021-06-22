@@ -1,0 +1,695 @@
+{
+  "took" : 8,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 52,
+      "relation" : "eq"
+    },
+    "max_score" : 1.9729816,
+    "hits" : [
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "6",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T11:21:05",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 50
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "25",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T23:09:17",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 57
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "35",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T18:56:06",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 36
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "39",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T18:36:57",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 25
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "40",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T06:05:25",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 6
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "41",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T02:03:30",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 70
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "45",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T08:32:51",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 67
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "49",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T05:25:37",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 47
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "50",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T03:21:26",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 36
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "57",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T02:34:28",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 12
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "58",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T22:09:32",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 49
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "62",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T09:06:11",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 14
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "74",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T09:48:48",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 61
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "76",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T11:30:15",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 31
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "82",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:46:36",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 43
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "105",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T04:38:27",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 36
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "108",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T09:22:44",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 67
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "111",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T16:44:38",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 0
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "113",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T17:18:04",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 34
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "117",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T02:17:46",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 74
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "123",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T14:34:42",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 61
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "124",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T01:11:33",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 55
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "127",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T00:58:46",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 55
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "129",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T04:50:53",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 46
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "131",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T21:42:54",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 6
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "135",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T14:35:12",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 17
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "150",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T22:54:28",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 54
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "151",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T17:56:07",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 49
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "152",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T06:29:24",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 54
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "156",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T14:56:35",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 58
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "161",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T22:52:49",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 67
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "189",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T23:08:03",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 22
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "199",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T11:57:15",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 63
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "202",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T15:30:30",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 8
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "212",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:49:56",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 68
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "223",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T23:14:11",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 74
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "225",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T15:12:15",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 6
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "230",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:48:35",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 16
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "240",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T13:17:15",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 10
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "241",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T01:51:01",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 22
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "244",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T15:35:50",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 72
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "247",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T02:56:14",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 3
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "259",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T04:08:44",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 44
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "264",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T00:59:25",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 71
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "266",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T17:28:47",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 34
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "280",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T06:15:06",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 66
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "283",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T06:41:38",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Carlos Lara",
+          "consultas_realizadas" : 9
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "286",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T01:37:31",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 8
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "294",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T15:09:40",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 30
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "296",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T21:52:15",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 40
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "298",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T07:35:51",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Lara",
+          "consultas_realizadas" : 14
+        }
+      },
+      {
+        "_index" : "log_consultas",
+        "_type" : "_doc",
+        "_id" : "299",
+        "_score" : 1.9729816,
+        "_source" : {
+          "@timestamp" : "2010-05-15T18:36:26",
+          "estado_consulta" : "informativo",
+          "servicio" : "borrado",
+          "administrador" : "Juan Carlos",
+          "consultas_realizadas" : 74
+        }
+      }
+    ]
+  }
+}

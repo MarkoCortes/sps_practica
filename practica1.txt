@@ -1,0 +1,14 @@
+#Usar API Search
+#Obtener documentos donde estado_consulta sea "error" o "consumo"
+GET /log_consultas/_search?size=300
+{
+  "query": {
+    "terms": {
+      "estado_consulta": 
+        [
+          "error",
+          "consumo"
+        ]
+    }
+  }
+}
